@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Camera App</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+  <div class="header">
+      <!-- 
+      <button id="btn-start">Start</button>
+      <button id="btn-capture">Capture</button>
+      <button id="btn-stop">Stop</button>
+      <button id="btn-list">Show all</button> 
+      -->
+  </div>
+  <div class="container">
+     
+    <video id="video" class="video" autoplay></video>
+    
+    
+
+    <div class="face" id="face">
+      
+    </div>
+
+    <div class="path hide" id="path">
+      <div class="cursor" id="cursor"></div>
+    </div>
+       <div class="btns">
+        <button class="btn" id="btn-go">GO!</button>
+    </div>
+       <canvas id="canvas" class="canvas" width="640" height="480"></canvas>
+      <ul id="image-list" class="image-list"></ul>
+
+      
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
