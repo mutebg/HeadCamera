@@ -1,3 +1,3 @@
 HeadCamera
 ==========
-Demo projects.stoyandelev.com/
+Demo http://projects.stoyandelev.com/headcamera/
